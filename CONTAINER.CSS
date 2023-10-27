@@ -1,0 +1,6 @@
+.logo-container {
+      display: inline-block; /* or inline, inline-flex, etc. depending on your layout */
+      margin-right: 9px;
+      width: 2px; /* Adjust the margin to control the distance between the logo and heading */
+  }
+  

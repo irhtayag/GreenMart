@@ -1,0 +1,17 @@
+.button-container {
+      display: flex; /* Use flexbox to arrange buttons horizontally */
+  }
+  
+  .login-button, .register-button {
+      padding: 10px 20px; /* Adjust padding to style the buttons */
+      margin: 5px; /* Add margin to separate the buttons */
+      background-color: #007bff; /* Change background color */
+      color: #fff; /* Change text color */
+      border: none;
+      cursor: pointer;
+  }
+  
+  .register-button {
+      background-color: #28a745; /* Different color for the register button */
+  }
+  

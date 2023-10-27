@@ -1,0 +1,154 @@
+.vani{
+    font-size: x-large;
+    font-style: bold;
+
+  }
+  header {
+    background-color:lightgreen;
+    color:green;
+    text-align: center;
+    padding: 20px;
+}
+  .header {
+    background:lightgreen;
+    color:Black;
+     padding:4px;
+     text-align: center;
+      display: flex;
+       justify-content: space-evenly;
+        align-items: center;
+    }
+  .header-button {
+    background-color:black;
+color:white;
+padding: 10px 10px;
+border: none;
+border-radius:20px;
+text-align: right;
+text-decoration: none;
+font-style:bold;
+font-weight: bolder;
+}
+.header-button:hover{
+    background-color:white;
+    color:rgb(13, 68, 28)
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+.header-logo img{
+    width:120px;
+    height:120px;
+    shape-image-threshold: inherit;
+    background-position: center;
+}
+
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+nav ul {
+    background-color:white;
+    list-style: none;
+    display: flex; /* Make the list horizontal */
+    justify-content: right; /* Center the items horizontally */
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px; /* Add spacing between items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+div img{
+    width: 200px;
+    height:200px;
+    border-radius: 15px;
+    box-shadow:black;
+    cursor: progress;
+    margin-left:34px ;
+    margin-right: 25px;
+    transition: 10px;
+
+   
+  }
+  div img :hover{
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+
+
+ .row{
+    display: flex;
+ }
+ .column{
+    flex: 15px;
+    padding: 5px;
+ }
+ /* CSS for the footer section */
+
+footer {
+    background-color:grey; /* Background color for the footer */
+    color: #fff; /* Text color in the footer */
+    padding:15px; /* Spacing around the content in the footer */
+}
+footer ul {
+    background-color:grey;
+    list-style: none;
+    display: flex; /* Make the list horizontal */
+    justify-content: right; /* Center the items horizontally */
+    padding: 0;
+}
+
+footer ul li {
+    margin: 0 25px; /* Add spacing between items */
+}
+
+footer ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+ .row .column{
+    transition: transform 0.5s;
+}
+.row .column:hover {
+    transform: scale(1.1);
+}
+
+  /* Add a hover effect if you want */
+  .fa:hover:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook{
+    background: #3B5998;
+    
+  }
+  
+  /* Twitter */
+  .fa-whatsapp{
+    background: #55ACEE;
+  
+  }
+  .fa-twitter{
+    background-color: aqua;
+  
+  }
+  .fa-instagram{
+    background-color: beige;
+   
+  }

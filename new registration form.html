@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+      body{
+          background-image:url("mart background.avif");
+          background-size: cover;
+          height: 100vh;
+          background-position: center;
+      }
+      body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(106, 142, 58);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .registration-form {
+           
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px white(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 200%;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            font-weight: bold;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #6fc300;
+            border-radius: 10px;
+        }
+
+        .form-group button {
+            background-color:green;
+            color: #087c13;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-group :hover{
+            background-color: azure;
+    filter: grayscale(1);
+    transform: scale(1.03);
+  }
+
+        
+    </style>
+</head>
+<body>
+      <form>
+            <fieldset>
+                  <legend align="center">Registration form</legend>
+                  <label for="user">Name:</label>
+                  <input type="text" name="user" placeholder="username" required><br><br>
+                  <label for="user">Phone no:</label>
+                  <input type="tel" name="user" placeholder="phone number" required><br><br>
+                  <label for="user">Email:</label>
+                  <input type="email" name="user" placeholder="email" required><br><br>
+                  <label for="user">Password:</label>
+                  <input type="password" name="user" placeholder="password" required><br><br>
+                  <label for="user">Confirm password:</label>
+                  <input type="password" name="user" placeholder="password" required><br><br>
+                  <label for="user">DOB:</label>
+                  <input type="date" name="user" placeholder="DOB" required><br><br>
+                  <br>
+                  <label for="user">Adderss:</label>
+                  <input type="text" name="user" placeholder="D/no" required><br><br>
+                  <label for="user">City:</label>
+                  <input type="text" name="user" placeholder="city" required><br><br>
+                 <br>
+                <button type="submit" class="registerbtn">Register</button>
+
+            </fieldset>
+      </form>
+        </form>
+    </div>
+</body>
+</html>
