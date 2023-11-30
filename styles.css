@@ -94,6 +94,7 @@ div img{
  .column{
     flex: 15px;
     padding: 5px;
+    text-align: center;
  }
  /* CSS for the footer section */
 
